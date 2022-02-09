@@ -1,30 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <h1>Whiskers and Paws Pet Shop</h1>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <div class="navbar-nav">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <form>
-        <div class="form-group row">
-            <label for="">Name</label>
-            <input type="text">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" placeholder="First Name">
+            </div>
 
+            <div class="form-group col-md-6">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last Name">
+            </div>
         </div>
-        <div class="form-group row">
-            <label for="">Email</label>
-            <input type="text">
 
-        </div>
-        <div class="form-group row">
-            <label for="">Sign me up for exclusive offers, coupons, and weekly newsletters</label>
-            <input type="checkbox" name="" id="">
-        </div>
+      
+            <div class="form-group">
+                <label for="inputAddress1">Address 1</label>
+                <input type="text" class="form-control" placeholder="Address 1">
+            </div>
+
+            <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" placeholder="Address 1">
+            </div>
+  
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" placeholder="" id="inputCity">
+                </div>
+                <div class="form-group">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option value="default">Select</option>
+                        <option value="alabama">AL</option>
+                        <option value="alaska">AK</option>
+                        <option value="arizona">AZ</option>
+                        <option value="arkansas">AR</option>
+                        <option value="california">CA</option>
+                        <option value="colorado">CO</option>
+                        <option value="connecticut">CT</option>
+                        <option value="delaware">DE</option>
+                        <option value="florida">FL</option>
+                        <option value="georgia">GA</option>
+                        <option value="hawaii">HI</option>
+                        <option value="idaho">ID</option>
+                        <option value="illinois">IL</option>
+                        <option value="indiana">IN</option>
+                        <option value="iowa">IA</option>
+                        <option value="kansas">KS</option>
+                        <option value="kentucky">KY</option>
+                        <option value="louisiana">LA</option>
+                        <option value="maine">ME</option>
+                        <option value="maryland">MD</option>
+                        <option value="massachusetts">MA</option>
+                        <option value="michigan">MI</option>
+                        <option value="minnesota">MN</option>
+                        <option value="mississippi">MS</option>
+                        <option value="missouri">MO</option>
+                        <option value="montana">MT</option>
+                        <option value="nebraska">NE</option>
+                        <option value="nevada">NV</option>
+                        <option value="newHampshire">NH</option>
+                        <option value="newJersey">NJ</option>
+                        <option value="newMexico">NM</option>
+                        <option value="newYork">NY</option>
+                        <option value="northCarolina">NC</option>
+                        <option value="northDakota">ND</option>
+                        <option value="ohio">OH</option>
+                        <option value="oklahoma">OK</option>
+                        <option value="oregon">OR</option>
+                        <option value="pennsylvania">PA</option>
+                        <option value="rhodeIsland">RI</option>
+                        <option value="southCarolina">SC</option>
+                        <option value="southDakota">SD</option>
+                        <option value="tennessee">TN</option>
+                        <option value="texas">TX</option>
+                        <option value="utah">UT</option>
+                        <option value="vermont">VT</option>
+                        <option value="virginia">VA</option>
+                        <option value="washington">WA</option>
+                        <option value="westVirgina">WV</option>
+                        <option value="wisconsin">WI</option>
+                        <option value="wyoming">WY</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputZip">Zip Code</label>
+                    <input type="text" class="form-control" placeholder="" id="inputZip">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="" class="col-form-label">Email</label>
+                <input type="text">
+            </div>
+            <div class="form-group row">
+                <label for="">Sign me up for exclusive offers, coupons, and weekly newsletters</label>
+                <input type="checkbox" name="" id="">
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+            </div>
+
+        
 
     </form>
 
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

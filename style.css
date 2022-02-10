@@ -19,11 +19,10 @@ body{
 }
 
 .page-footer{
-    position:fixed;
    left:0px;
    bottom:0px;
    width:100%;
-   background:#999;
+   background:rgb(221, 175, 122);
 }
 .fa {
     padding: 20px;
@@ -47,3 +46,16 @@ body{
   .fa-instagram {
     color: white;
   }
+
+.carousel-inner{
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+}
+
+@media screen and (max-width: 1007px) {
+  .carousel-inner{
+    padding: 0;
+  }
+}

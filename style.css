@@ -1,3 +1,49 @@
-.page-footer{
-    display: block;
+body{
+  background-image: url(./vecteezy_dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-or-background_464517/dog_and_cat_pattern-14.jpg);
+  background-size: cover;
+  background-repeat: repeat;
 }
+
+.store-name{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90px;
+  text-align: center;
+}
+
+.navbar-nav{
+  
+}
+
+.entire-page{
+  font-family: 'Pangolin';
+}
+
+.page-footer{
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#999;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+      color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
+  }

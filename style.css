@@ -10,9 +10,15 @@ body{
   text-align: center;
 }
 
-.navbar-nav{
-  
+.top-nav{
+  background: rgb(221, 175, 122);
+  overflow: hidden;
+  padding: 14px 16px;
+  display: flex;
+ justify-content: space-around;
+
 }
+
 
 .entire-page{
   font-family: 'Pangolin';
@@ -52,6 +58,10 @@ body{
   padding-right: 200px;
   padding-bottom: 100px;
   padding-left: 200px;
+}
+
+#form{
+  background:rgb(221, 175, 122);
 }
 
 @media screen and (max-width: 1007px) {

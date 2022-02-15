@@ -9,18 +9,33 @@ body{
   font-size: 90px;
   text-align: center;
 }
-
-.top-nav{
-  background: rgb(221, 175, 122);
-  overflow: hidden;
-  padding: 14px 16px;
+#market{
   display: flex;
- justify-content: space-around;
+  flex-wrap: wrap;
+}
 
+.topnav{
+   background: rgb(221, 175, 122);
+   overflow: hidden;
+   display: flex;
+   flex: row;
+   justify-content: space-around;
 }
 
 
-.entire-page{
+.topnav a{
+  font-family: 'Pangolin';
+  font-size: 16pt;
+  color: black;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.topnav a:hover{
+  background-color: white;
+}
+
+.container{
   font-family: 'Pangolin';
 }
 

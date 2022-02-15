@@ -6,13 +6,13 @@ var shop = [
         
     },
     {
-        title: 'Purina Beyond Alaskan Cod, Salmon & Sweet Potato Grain-Free Canned Dog Food, 13-oz, case of 12',
+        title: 'Purina Beyond Alaskan Cod',
         image: 'https://img.chewy.com/is/image/catalog/142438_MAIN._AC_SS232_V1616105211_.jpg',
         price: '$24.99',
         
     },
     {
-        title: 'Purina Beyond Alaskan Cod, Salmon & Sweet Potato Grain-Free Canned Dog Food, 13-oz, case of 12',
+        title: 'Purina Beyond Alaskan Cod',
         image: 'https://img.chewy.com/is/image/catalog/142438_MAIN._AC_SS232_V1616105211_.jpg',
         price: '$24.99',
         
@@ -33,3 +33,12 @@ for (var i = 0; i < shop.length; i++) {
 
 }
 document.getElementById('market').innerHTML = postHTML
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }

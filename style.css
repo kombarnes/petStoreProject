@@ -46,6 +46,7 @@ body{
 
 .topnav a:hover{
   background-color: white;
+  text-decoration: none;
 }
 
 .topnav .icon {
@@ -117,6 +118,8 @@ body{
 
 #form{
   background:rgb(221, 175, 122);
+  padding: 30px;
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 1007px) {

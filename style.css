@@ -1,4 +1,4 @@
-.heading{
+#heading{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,18 +17,38 @@ body{
 
 .store-name{
   font-family: 'Luckiest Guy', cursive;
-  font-size: 90px;
+  font-size: 50pt;
   text-align: center;
 }
+
+.adopt{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Pangolin';
+  justify-content: center;
+  background-color: rgb(233, 214, 243);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.adopt img{
+  width: 200px;
+}
+
+.adopt h1{
+  font-size: 50pt;
+}
+
 #market{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   background-color: antiquewhite;
 }
 
 .topnav{
-   background: rgb(221, 175, 122);
+   background-color: rgb(221, 175, 122);
    overflow: hidden;
    display: flex;
    flex: row;
@@ -76,15 +96,28 @@ body{
   }
 }
 
-.container{
+.carousel img{
+  border-radius: 25%;
+}
+
+.carousel-inner{
+  background-color: antiquewhite;
+  padding-top: 100px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  padding-left: 200px;
   font-family: 'Pangolin';
+}
+
+.carousel-caption h5{
+  font-size: 24pt;
 }
 
 .page-footer{
    left:0px;
    bottom:0px;
    width:100%;
-   background:rgb(221, 175, 122);
+   background-color:rgb(221, 175, 122);
 }
 .fa {
     padding: 20px;
@@ -109,12 +142,6 @@ body{
     color: white;
   }
 
-.carousel-inner{
-  padding-top: 100px;
-  padding-right: 200px;
-  padding-bottom: 100px;
-  padding-left: 200px;
-}
 
 #form{
   background:rgb(221, 175, 122);

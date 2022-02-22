@@ -52,6 +52,7 @@ body{
 
 .pet-image{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 

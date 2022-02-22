@@ -81,7 +81,7 @@ for (var i = 0; i < shop.length; i++) {
     var heading = '<div class="product ' + '"><span><h5 class="titles">' + shop[i].title + '</h5>'
     var image = '<img src="' + shop[i].image + '"/'
     var price = '<p> $' + shop[i].price + '</p></span>'
-    var button = '<button class="btn btn-outline-success"> Add to cart</button></div>'
+    var button = '<button class="btn btn-block btn-primary"> Add to cart</button></div>'
     var concatThis = heading + image + price + button
     postHTML = postHTML + concatThis
 

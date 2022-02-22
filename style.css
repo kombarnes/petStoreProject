@@ -45,6 +45,10 @@ body{
   background-color: rgb(205, 245, 231);
 }
 
+.adopt-2{
+  font-family: 'Pangolin';
+}
+
 .adopt-2 img{
   width: 200px;
   border-radius: 50%;
@@ -55,6 +59,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 #market{
   display: flex;
@@ -176,4 +181,19 @@ body{
   font-family: 'Pangolin';
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.join{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Pangolin';
+  justify-content: center;
+  background-color: rgb(233, 214, 243);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.join img{
+  width: 200px;
 }

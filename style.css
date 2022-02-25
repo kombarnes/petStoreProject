@@ -6,6 +6,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   background-image: url('./colorful-dog-cat-paw-prints-pattern-background/SL-100420-36140-29.jpg');
   background-size: 25%;
   background-repeat: repeat;
@@ -56,7 +57,20 @@ body{
 }
 
 .about{
-  background-color: rgb(205, 245, 231);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.our-story{
+  background-color: rgb(253, 251, 147);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
 }
 
 .adopt-2{
@@ -64,7 +78,12 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: rgb(205, 245, 231);
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  text-align: center;
 }
 
 .adopt-2 img{
@@ -250,6 +269,7 @@ body{
   padding-top: 40px;
   padding-bottom: 40px;
   align-items: center;
+  text-align: center;
 }
 
 .join img{

@@ -1,29 +1,46 @@
+body{
+  overflow-x: hidden;
+}
+
 #heading{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-image: url('./colorful-dog-cat-paw-prints-pattern-background/SL-100420-36140-29.jpg');
+  background-size: 25%;
+  background-repeat: repeat;
+}
+
+#logo{
+  width: 150px;
 }
 
 
 @media only screen and (max-width: 1200px){
+  #heading{
+    text-align: center;
+    display: flex;
+  }
   
 }
 
-body{
-  background-image: url(./vecteezy_dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-or-background_464517/dog_and_cat_pattern-14.jpg);
-  background-size: 30%;
-  background-repeat: repeat;
+.store-name h1{
+  font-family: 'Pangolin';
+  font-size: 40pt;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.store-name h1{
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 50pt;
-  display: flex;
-  padding: 70px;
+@media only screen and (max-width: 1200px){
+  .store-name h1{
+    font-size: 30pt;
+  }
 }
 
 .adopt-1{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   font-family: 'Pangolin';
   justify-content: center;
@@ -37,27 +54,34 @@ body{
   width: 200px;
 }
 
-.adopt-1 h1{
-  font-size: 50pt;
-}
-
 .about{
   background-color: rgb(205, 245, 231);
 }
 
 .adopt-2{
   font-family: 'Pangolin';
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .adopt-2 img{
-  width: 200px;
+  width: 100px;
   border-radius: 50%;
+}
+
+#adopt-logo{
+  width: 100px;
 }
 
 .pet-image{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#adopt-btn{
+  background-color: antiquewhite;
+  border: 2px solid black;
 }
 
 
@@ -69,7 +93,7 @@ body{
 }
 
 .topnav{
-   background-color: rgb(221, 175, 122);
+   background-color: rgb(250, 221, 187);
    overflow: hidden;
    display: flex;
    flex: row;
@@ -117,8 +141,14 @@ body{
   }
 }
 
+@media screen and (max-width: 1200px) {
+  body{
+    background-image: none;
+  }
+}
+
 .carousel img{
-  border-radius: 25%;
+  /* border-radius: 25%; */
 }
 
 .carousel-inner{
@@ -135,10 +165,15 @@ body{
 }
 
 .page-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
    left:0px;
    bottom:0px;
    width:100%;
-   background-color:rgb(221, 175, 122);
+   background-color: rgb(250, 221, 187);
+   font-family: 'Source Sans Pro';
+  font-weight: bold;
 }
 .fa {
     padding: 20px;
@@ -154,23 +189,42 @@ body{
   }
 
   .fa-facebook {
-      color: white;
+      color: grey;
   }
   .fa-twitter {
-    color: white;
+    color: grey;
   }
   .fa-instagram {
-    color: white;
+    color: grey;
+  }
+
+  #footer-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #footer-2{
+    display: flex;
+    flex-wrap: flex;
+  }
+
+  @media screen and (max-width: 1200px) {
+    #footer-2 p{
+      display: none;
+    }
   }
 
 
 #form{
-  background:rgb(221, 175, 122);
+  background: antiquewhite;
   padding: 30px;
-  border-radius: 25px;
+  border-radius: 15px;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 1200px) {
   .carousel-inner{
     padding: 0;
   }
@@ -185,6 +239,7 @@ body{
 
 .join{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   font-family: 'Pangolin';
   justify-content: center;
@@ -195,5 +250,21 @@ body{
 }
 
 .join img{
-  width: 200px;
+  width: 100px;
+}
+
+#join-2{
+  display: flex;
+  justify-content: center;
+}
+
+#join-2 h3{
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .credit{
+    display: none;
+  }
 }

@@ -18,15 +18,21 @@
 </head>
 
 <body>
+    <!--Heading-->
     <div class="main" id="heading">
-        <a href="index.html">
-            <img src="petStoreLogo.png" alt="logo" width="250" height="250">
-        </a>
-        <h1 class="store-name">Whiskers & Paws Pet Shop</h1>
+        <div class="logo">
+            <a href="index.html">
+                <img src="petStoreLogo.png" alt="logo" id="logo">
+            </a>
+        </div>
+        <div class="store-name">
+            <h1>Whiskers & Paws Pet Shop</h1>
+        </div>
     </div>
 
+
     <!--NavBar-->
-    <div class="topnav" id="myTopnav">
+       <div class="topnav" id="myTopnav">
         <a href="index.html" class="active"><i class="fa-solid fa-house"></i>Home</a>
         <a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a>
         <a href="shop.html"><i class="fa-solid fa-cart-shopping"></i>Shop</a>
@@ -34,6 +40,7 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
+    </div>
     </div>
 
     <div class="about">
@@ -43,79 +50,80 @@
                 pride ourselves in providing the best service for your pet.</p>
         </div>
         <div class="adopt-2">
-            <h1>Adopt</h1>
-            <p>Find your new best friend! </p>
+            <div>
+                <h1>Adopt</h1>
+                <p>Find your new best friend! </p>
+            </div>
             <div class="pet-image">
                 <div class="image-1">
                     <img src="./dog-1.jpg" alt="dog-1">
                     <h3>Ralph</h3>
-                    <button type="button" class="btn">Adopt Me</button>
+                    <button type="button" class="btn" id="adopt-btn">Adopt Me</button>
                 </div>
 
                 <div class="image-2">
                     <img src="./dog-2.jpg" alt="dog-2">
                     <h3>Josie</h3>
-                    <button type="button" class="btn">Adopt Me</button>
+                    <button type="button" class="btn" id="adopt-btn">Adopt Me</button>
                 </div>
 
                 <div class="image-3">
                     <img src="./dog-3.jpg" alt="dog-3">
                     <h3>Spidey</h3>
-                    <button type="button" class="btn">Adopt Me</button>
+                    <button type="button" class="btn" id="adopt-btn">Adopt Me</button>
                 </div>
 
                 <div class="image-4">
                     <img src="./dog-4.jpg" alt="dog-4">
                     <h3>Daisy</h3>
-                    <button type="button" class="btn">Adopt Me</button>
+                    <button type="button" class="btn" id="adopt-btn">Adopt Me</button>
                 </div>
 
                 <div class="image-5">
                     <img src="./cat-1.jpg" alt="cat-1">
                     <h3>Bella</h3>
-                    <button type="button" class="btn">Adopt Me</button>
+                    <button type="button" class="btn" id="adopt-btn">Adopt Me</button>
                 </div>
 
-                <div class="-image-6">
+                <div class="image-6">
                     <img src="./cat-2.jpg" alt="cat-2">
                     <h3>Lulu</h3>
-                    <button type="button" class="btn">Adopt Me</button>
+                    <button type="button" class="btn" id="adopt-btn">Adopt Me</button>
                 </div>
-
             </div>
-
         </div>
 
         <div class="join">
             <h1>Join Our Team!</h1>
-            <p>Do you love working with animals? Are you looking for volunteer experience? If the answer is "YES!", <a href="./contact.html">click here</a> to fill
+            <p>Do you love working with animals? Are you looking for volunteer experience? If the answer is "YES!", <a
+                    href="./contact.html">click here</a> to fill
                 out your contact information, and we'll reach out to you about our volunteer opportunities!</p>
         </div>
     </div>
 
     <!--Background Template Credit-->
     <div class="credit">
-        image from <a href="https://www.vecteezy.com/free-vector/paw-print-background">Paw Print Background Vectors by
-            Vecteezy</a>
+        <a href='https://www.freepik.com/vectors/dog-footprint'>Dog footprint vector created by starline - www.freepik.com</a>
     </div>
 
     <!--Footer-->
 
-    <footer class="page-footer d-flex flex-row justify-content-between align-items-center">
-        <div class="d-flex flex-row">
-            <p>Sign Up for Coupons and Promo Codes!</p>
-            <form id="sign-up">
-                <input type="text">
-            </form>
-        </div>
-
-        <div>
-            <p>
-                Follow Us on Social Media
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-            </p>
+    <footer class="page-footer">
+        <form id="footer-1">
+            <div class="form-group col-auto">
+                <label for="emailSignUp">Sign Up for Exclusive Offers and Coupons!</label>
+                <input type="email" class="form-control" id="email-sign-up">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+        </form>
+    
+        <div id="footer-2">
+            <p>Follow Us on Social Media</p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
         </div>
     </footer>
 

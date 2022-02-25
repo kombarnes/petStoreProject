@@ -18,12 +18,18 @@
 </head>
 
 <body>
+    <!--Heading-->
     <div class="main" id="heading">
-        <a href="index.html">
-            <img src="petStoreLogo.png" alt="logo" width="250" height="250">
-        </a>
-        <h1 class="store-name">Whiskers & Paws Pet Shop</h1>
+        <div class="logo">
+            <a href="index.html">
+                <img src="petStoreLogo.png" alt="logo" id="logo">
+            </a>
+        </div>
+        <div class="store-name">
+            <h1>Whiskers & Paws Pet Shop</h1>
+        </div>
     </div>
+
 
     <!--NavBar-->
     <div class="topnav" id="myTopnav">
@@ -36,37 +42,36 @@
         </a>
     </div>
 
+    <!--Shop Header-->
     <div class="container-2">
         <h1 class="d-flex justify-content-center" id="shop-header">Shop Food, Treats, and Supplies for Your Furry Friend!</h1>
-        <img src="dog-with-toy-2.jpg" alt="" width="100%">
     </div>
 
 
     <div id="market"></div>
 
     <!--Background Template Credit-->
-    <div class="credit">
-        image from <a href="https://www.vecteezy.com/free-vector/paw-print-background">Paw Print Background Vectors by
-            Vecteezy</a>
+    <div<a href='https://www.freepik.com/vectors/dog-footprint'>Dog footprint vector created by starline - www.freepik.com</a>
     </div>
 
        <!--Footer-->
 
-       <footer class="page-footer d-flex flex-row justify-content-between align-items-center">
-        <div class="d-flex flex-row">
-            <p>Sign Up for Coupons and Promo Codes!</p>
-            <form id="sign-up">
-                <input type="text">
-            </form>
-        </div>
-
-        <div>
-            <p>
-                Follow Us on Social Media
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-            </p>
+       <footer class="page-footer">
+        <form id="footer-1">
+            <div class="form-group col-auto">
+                <label for="emailSignUp">Sign Up for Exclusive Offers and Coupons!</label>
+                <input type="email" class="form-control" id="email-sign-up">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+        </form>
+    
+        <div id="footer-2">
+            <p>Follow Us on Social Media</p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
         </div>
     </footer>
   

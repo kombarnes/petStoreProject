@@ -301,10 +301,18 @@ body{
 }
 
 #services{
-  display: flex;
+  background-color: rgb(253, 251, 147);
+  font-family: 'Pangolin';
+  padding: 30px;
   text-align: center;
 }
 
-#service-heading{
-  text-align: center;
+#service-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.credit{
+  display: flex;
+  font-size: xx-small;
 }

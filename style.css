@@ -64,10 +64,11 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .adopt-2 img{
-  width: 100px;
+  width: 200px;
   border-radius: 50%;
 }
 
@@ -78,12 +79,12 @@ body{
 .pet-image{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #adopt-btn{
-  background-color: antiquewhite;
-  border: 2px solid black;
+  background-color: pink;
+  border: none;
 }
 
 
@@ -269,4 +270,8 @@ body{
   .credit{
     display: none;
   }
+}
+
+.about{
+  font-family: 'Pangolin';
 }

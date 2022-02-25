@@ -32,7 +32,7 @@
 
 
     <!--NavBar-->
-       <div class="topnav" id="myTopnav">
+    <div class="topnav" id="myTopnav">
         <a href="index.html" class="active"><i class="fa-solid fa-house"></i>Home</a>
         <a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a>
         <a href="shop.html"><i class="fa-solid fa-cart-shopping"></i>Shop</a>
@@ -44,7 +44,7 @@
     </div>
 
     <br>
-
+    <!--Our Story-->
     <div class="about container">
         <div class="our-story container">
             <h1>Our Story</h1>
@@ -52,6 +52,7 @@
                 pride ourselves in providing the best service for your pet.</p>
         </div>
         <br>
+        <!--Adopt a Pet-->
         <div class="adopt-2 container">
             <div>
                 <h1>Adopt a Pet</h1>
@@ -95,9 +96,68 @@
                 </div>
             </div>
         </div>
-        
+
         <br>
 
+        <!--Services-->
+        
+        <div class="container" id="service-form">
+            <form id="form-2">
+                <h1>Services</h1>
+                <div class="service-form">
+                    <div>
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+                        <br>
+                        <label for="petName">What's your dog/cat's name?</label>
+                        <input type="text" class="form-control" placeholder="Whiskers" required>
+                        <br>
+                        <label for="petType">What kind of pet do you have?</label>
+                        <select class="custom-select" id="pet-type" required>
+                            <option selected disabled>Select</option>
+                            <option value="1">Dog</option>
+                            <option value="2">Cat</option>
+                          </select>
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" class="form-control" placeholder="(123)456-7890" required>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="container">
+                    <p>Which service(s) will you need?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Grooming
+                        </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Walking and Sitting
+                        </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Veterinary Care
+                        </label>
+                    </div>
+                </div>
+                
+                <br>
+                
+                <button type="submit" class="btn" id="submit-service">Submit</button>
+            </form>
+        </div>
+
+        <br>
+
+        <!--Join Our Team-->
         <div class="join container">
             <h1>Join Our Team!</h1>
             <p>Do you love working with animals? Are you looking for volunteer experience? If the answer is "YES!", <a
@@ -108,7 +168,8 @@
 
     <!--Background Template Credit-->
     <div class="credit">
-        <a href='https://www.freepik.com/vectors/dog-footprint'>Dog footprint vector created by starline - www.freepik.com</a>
+        <a href='https://www.freepik.com/vectors/dog-footprint'>Dog footprint vector created by starline -
+            www.freepik.com</a>
     </div>
 
     <!--Footer-->
@@ -123,7 +184,7 @@
                 <button type="submit" class="btn btn-primary">Sign Up</button>
             </div>
         </form>
-    
+
         <div id="footer-2">
             <p>Follow Us on Social Media</p>
             <a href="#" class="fa fa-facebook"></a>

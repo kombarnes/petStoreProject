@@ -169,15 +169,14 @@ body{
   }
 }
 
-.carousel img{
-  /* border-radius: 25%; */
-}
+/* .carousel img{
+  height: 500px;
+} */
+
 
 .carousel-inner{
-  background-color: antiquewhite;
-  padding-top: 100px;
+  background-color: rgb(205, 245, 231);
   padding-right: 200px;
-  padding-bottom: 100px;
   padding-left: 200px;
   font-family: 'Pangolin';
 }
@@ -229,6 +228,11 @@ body{
   #footer-2{
     display: flex;
     flex-wrap: flex;
+  }
+
+  #footer-2 p{
+    display: flex;
+    align-items: center;
   }
 
   @media screen and (max-width: 1200px) {
@@ -315,4 +319,18 @@ justify-content: space-around;
 .credit{
   display: flex;
   font-size: xx-small;
+}
+
+#form-2{
+  background-color: rgb(233, 214, 243);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#service-form h1{
+  text-align: center;
+}
+
+#submit-service{
+  background-color: pink;
 }

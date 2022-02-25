@@ -239,7 +239,7 @@ body{
 
 
 #form{
-  background: antiquewhite;
+  background: rgb(205, 245, 231);
   padding: 30px;
   border-radius: 15px;
   font-family: 'Source Sans Pro';
@@ -265,7 +265,7 @@ body{
   flex-wrap: wrap;
   font-family: 'Pangolin';
   justify-content: center;
-  background-color: rgb(233, 214, 243);
+  background-color: rgb(253, 251, 147);
   padding-top: 40px;
   padding-bottom: 40px;
   align-items: center;
@@ -294,4 +294,17 @@ body{
 
 .about{
   font-family: 'Pangolin';
+}
+
+.container{
+  border-radius: 15px;
+}
+
+#services{
+  display: flex;
+  text-align: center;
+}
+
+#service-heading{
+  text-align: center;
 }
